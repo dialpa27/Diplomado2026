@@ -1,0 +1,221 @@
+/* Inicio de Estilos del Menu del Sitio Web */ 
+@font-face{
+    font-family: 'personal';
+    src: url(../Archivos/Mollen-Personal-Use-Regular.otf);
+}
+
+*{
+    font-family: 'personal';
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    width: 125px;
+    padding-top: 5px;
+}
+
+header {
+    width: 70%;
+    background-color: #F3F3F3;
+    border-bottom: 3px; inset: #ffbb22;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: bold;
+}
+
+.flotador-izquierdo{
+    float: left;
+}
+
+.flotador-derecho{
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #232323;
+}
+
+.borde-imagen{
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+nav li{
+    padding: 21px 20px;
+}
+
+nav li:hover{
+    background-color: #ffbb22;
+    color: #232323;
+}
+
+/* 2.- Seccion de Noticias del Sitio Web.css */
+
+.titulo-seccion{
+    width: 100%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.seccion-noticias {
+    width: 80%;
+    padding: 2% 10%;
+}
+
+.noticia-individual{
+    width: 30%;
+    height: 520px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: justify;
+    padding-bottom: 1%;
+    float: left;
+}
+
+.imagen-noticia{
+    width:100%;
+    height: 180px;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.titulo-noticia{
+    padding: 1% 5%;
+}
+
+.resumen-noticia{
+    padding: 1% 5%;
+}
+
+.boton-noticia{
+    background-color: #ffbb22;
+    text-decoration: none;
+    color: #232323;
+    display: block;
+    text-align: center;
+    padding: 2% 0;
+    margin: 0 5%;
+    border-radius: 10px;
+}
+
+.boton-noticia:hover{
+    background-color: #232323;
+    color: #ffbb22;
+}
+
+/* 3.- Seccion de Ubicacion del Sitio Web.css */
+
+.romper-float{
+    clear: both;
+}
+
+/* 4.- Seccion de Contacto del Sitio Web.css */
+
+.contenedor-contacto{
+    width: 100%;
+    height: 580px;
+    background: url(../Imagen/banner-contacto.jpg);
+    background-size: cover;
+}
+
+.form{
+    width: 30%;
+    float: right;
+    margin-top: 25px;
+    margin-right: 15%;
+}
+
+.nombre-formulario{
+    display: block;
+    color: #ffbb22;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.entrada-formulario{
+    background-color: #000000;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ffbb22;
+    width: 94%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.titulo-formulario{
+    color: #ffbb22;
+    text-align: center;
+}
+
+textarea{
+    min-width: 94%;
+    max-width: 94%;
+    max-height: 40px;
+    min-height: 20px;
+    text-align: justify;
+}
+
+.boton-formulario{
+    outline: none;
+    border: none;
+    background: #ffbb22;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* 5.- Seccion de Pie de Pagina del Sitio web.html */
+
+.logo-pie {
+    width: 210px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-pie-pagina {
+    width: 100%;
+    background-color: #cdcdcd;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pie {
+    width: 89%;
+    padding: 5% 5%;
+}
+
+.pie a {
+    text-decoration: none;
+}
+
+.redes-sociales {
+    border: solid 1px black;
+    width: 17px;
+    height: 17px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.pie-pagina-copyright {
+    background-color: #ffbb22;
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}

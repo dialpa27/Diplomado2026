@@ -1,0 +1,20 @@
+.celeste {
+    /* bgc#66FAFF */
+    background-color: #66faff;
+}   
+
+.gris {
+    /* bgc#808080 */   
+    background-color: #808080;
+}
+
+.morado {
+    /* bgc#c000ff */
+    background-color: #c000ff;
+}
+
+.contenido {
+    /* h2200+w500 */
+    height: 200px;
+    width: 500px;
+}

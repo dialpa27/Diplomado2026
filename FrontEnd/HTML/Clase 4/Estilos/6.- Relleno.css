@@ -1,0 +1,26 @@
+.celeste {
+    /* bgc#66FAFF */
+    background-color: #66faff;
+}   
+
+.gris {
+    /* bgc#808080 */   
+    background-color: #808080;
+}
+
+.morado {
+    /* bgc#c000ff */
+    background-color: #c000ff;
+}
+/* El padding (o relleno) es el espacio que existe dentro de un elemento, situado entre su contenido (como un texto o una imagen) y su bode.
+si el margen era el "espacio personal" para alejarse de los demas, el padding es como el "acolchado" interno de una caja que protege lo que hay adentro */ 
+
+.relleno {
+    /* p10 */ 
+    padding: 10px;
+    /*  padding-top: Espacio interno arriba
+        padding-bottom: Espacio interno abajo
+        padding-left: Espacio interno a la izquierda
+        padding-right: Espacio interno a la derecha
+    */
+}

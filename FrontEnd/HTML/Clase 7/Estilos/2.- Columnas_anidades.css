@@ -1,0 +1,34 @@
+/* Estilo del Primer Div*/ 
+.caja{
+    /*Emmet*/
+    /*bgc#15ab86+c#fff+ff:arial+p20+taj+bd:s5px#000*/
+    background-color: #15ab86;
+    color: #fff;
+    font-family: arial;
+    padding: 20px;
+    text-align: justify;
+    border: solid 5px #000;
+}
+
+/*Fondo de las filas para visualizar el espacio sobrante*/
+.row {
+    background: blueviolet;
+}
+
+.columna-principal {
+    /*Emmet*/
+    /*bg#000+c#fff+tac+bd3-s-red*/
+    background: #000;
+    color: #fff;
+    text-align: center;
+    border: 3px solid red;
+}
+
+.columna-interna{
+    /*Emmet*/
+    /*bg:blue+c:white+bd3-s-grey+p10*/
+    background: blue;
+    color: white;
+    border: 3px solid grey;
+    padding: 10px;
+}

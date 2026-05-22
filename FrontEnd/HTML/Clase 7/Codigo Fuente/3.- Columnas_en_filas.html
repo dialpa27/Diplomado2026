@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/3.- Columnas_en_filas.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Asignacion de Columnas a una Fila</title>
+</head>
+<body>
+    
+    <div class="caja">
+        <h4>Clase row-cols-4</h4>
+        <p>Es un atajo que se aplica directamente a la fila (row), no a las columnas individuales. Su funcion es definir cuantas columnas debe haber por fila de forma automatica.</p>
+        <p>En lugar de tener que escribir col-3 en cada uno de los elementos hijos, se le dice al padre (row) que solo permita 4 elementos por linea. Como el total son 12 columnas, Bootstrap hace el calculo (12/4=3), por lo que cada hijo medira automaticamente el equivalente a un col-3.</p>
+    </div>
+    <br><br>
+
+    <div class="container">
+        <!--Aisgnacion de Columnas a una fila-->
+        <div class="row row-cols-4">
+            <div class="columna-interna">Columna Interna Nº 1</div>
+            <div class="columna-interna">Columna Interna Nº 2</div>
+            <div class="columna-interna">Columna Interna Nº 3</div>
+            <div class="columna-interna">Columna Interna Nº 4</div>
+            <div class="columna-interna">Columna Interna Nº 5</div>
+            <div class="columna-interna">Columna Interna Nº 6</div>
+            <div class="columna-interna">Columna Interna Nº 7</div>
+            <div class="columna-interna">Columna Interna Nº 8</div>
+            <div class="columna-interna">Columna Interna Nº 9</div>
+            <div class="columna-interna">Columna Interna Nº 10</div>
+            <div class="columna-interna">Columna Interna Nº 11</div>
+            <div class="columna-interna">Columna Interna Nº 12</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

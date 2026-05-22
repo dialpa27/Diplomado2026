@@ -1,0 +1,27 @@
+.celeste {
+    /* bgc#66FAFF */
+    background-color: #66faff;
+}   
+
+.gris {
+    /* bgc#808080 */   
+    background-color: #808080;
+}
+
+.morado {
+    /* bgc#c000ff */
+    background-color: #c000ff;
+}
+
+/*El margen (margin) es el espacio invisible que queda fuera del borde de un elemento.
+su funcion principal es separar a un elemento de sus vecinos (otros botones, textos o contenido) */
+
+.margen {
+    /* mt50+mb50+mr50+ml50 */
+    /* m50-50-50-50 */
+    /* m50 */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}

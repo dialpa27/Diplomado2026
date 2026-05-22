@@ -1,0 +1,64 @@
+p {
+    color: #b200b9;     /* Texto Morado */
+}   /* Selector etiqueta */
+
+.fondo{
+    background-color: #b200b9;  /* Fondo Morado */
+}   /*Selector Clase */
+
+#centrar-texto {
+    text-align: center;
+}   /*Selector Identificador */
+
+* {
+    font-style: italic;
+}   /* Selector Universal */
+
+p span {
+    background-color: #000000;  /* Fondo Negro */
+    color: #ffffff; /* Texto Blanco */
+}   /* Selector Desecendiente */
+
+h3, small {
+    color: #07dace;     /*Texto Azul */
+    background-color: #979797;  /*Fondo Gris */
+}   /* Combinacion de Selectores */
+
+div>span {
+    color: #000000; /*Texto Negro*/
+    background-color: #b200b9;  /* Fondo Morado*/
+}   /* Selector de hijos */
+
+a:active{
+    background-color: #0c00ff;  /*Color Azul*/
+}   /* Efecto al pulsar sobre la etiqueta a*/
+
+a:link {
+    color: #ff0000;     /*Color Rojo*/
+}   /*Cambiar color del enlace luego de que ya ha sido visitado */
+
+a:hover {
+    color: #00ff06;     /*Color Verder*/
+}   /* Efecto al pasar el cursor del mouse sobre la etiqueta a */
+
+#p1::before {
+    content: 'A - CONTENIDO ANTES DEL PARRAFO - ';
+    color: #FF0000; /*Color Rojo*/
+}   /* Cambios antes del selector*/
+
+#p1::after{
+    content: ' - CONTENIDO DESPUES DEL PARRAFO - ';
+    color: #00ff06;     /*Color Verde*/
+}   /* Cambios despuues del selector */
+#p1::first-letter{
+    color: #000000;     /*Color Negro*/
+}   /* Cambios en la primera letra del contenido del selector */
+
+#p1::first-line{
+    color: #0c00ff;     /* Color Azul*/
+}     /* Cambios en la primera linea del contenido del selector */
+
+#p1::selection{
+    color:#ffffff;      /* Color Blanco*/
+    background-color: #8d00b6;  /*Fondo Morado */
+}   /* Cambios en la seleccion hecha en el selector */

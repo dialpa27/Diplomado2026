@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <title>Registro Nuevo Alumno</title>
+    </head>
+<body>
+    <!--br*3+div>h2{Datos personales}+form[method="" action="" enctype=""]-->
+    <br>
+    <br>
+    <br>
+    <div id="global">
+        <h2>Datos personales</h2>
+        <div action="" method="" enctype="">
+            <!--div>label[for="nom" id="lnom"]+b{Nombre:}+br+input[type="text" id="nom" name="nom" size="30" maxlenght="25" placeholder="Ingrese el nombre del Alumno"]-->
+            <div>
+                <label for="nom" id="lnom"><b>Nombre:</b></label>
+                <br>
+                <input type="text" id="nom" name="nom" size="30" maxlenght="25" placeholder="Ingrese el nombre del Alumno">
+                </form>
+            </div>
+            <br>
+    </div>
+
+    <!--div>label[for="pass" id="lpass"]+b{Contraseña}+br+input[type="password" id="contraseña" name="contraseña" size="30" maxlenght="10" placeholder="Ingrese la contraseña" parttern="[a-zA-Z0-9ñÑÁáÉéÍíöóÚú]{4,8}" title="No inserte simbolos ni espacios]-->
+    <div>
+        <label for="pass" id="lpass"></label>
+        <b>Contraseña</b>
+        <br>
+        <input type="password" id="contraseña" name="contraseña" size="30" maxlenght="10" placeholder="Ingrese la contraseña" parttern="^[a-zA-Z0-9ñÑÁáÉéÍíöóÚú]{4,8}" title="No inserte simbolos ni espacios">
+    <button>BUSCAR</button>
+    </div>
+    <br>
+    <!--div>label[id="ldip" for="dip"]>b{Cursos Realizados}^br*2+input[type="checkbox" id="dip" name="dip" value="diplomado_electricidad_residencial"]{Diplomado de Electricidad Residencial}-->
+    
+    <div><label for="dip" id="ldip"><b>Cursos Realizados</b><br></label>
+    <br>
+    <input type="checkbox" id="dip" name="dip" value="diplomado_electricidad_residencial">Diplomado de Electricidad Residencial</input>
+    <br>
+    <input type="checkbox" id="dip2" name="dip2" value="diplomado_programacion_basica">Diplomado de programacion basica + IA</input>
+    <br>
+    <input type="checkbox" id="dip3" name="dip3" value="diplomado_diseño_grafico">Diplomado de Diseño Grafico</input>
+    <br>
+    <input type="checkbox" id="dip4" name="dip4" value="diplomado_inteligencia_artificial">Diplomado en Inteligencia Artificial</input>
+    </div>
+    <br>
+    <div>
+        <label for="gen" id="lgen"><b>Genero:</b><br></label>
+        <input type="radio" id="genf" name="gen" value="femenino">Femenino</input>
+        <input type="radio" id="genm" name="gen" value="masculino">Masculino</input>
+    <br><br>
+        <div><label for="eda" id="leda"></label><b>Edad:</b><br>
+            <select name="eda" id="eda">
+            <option value="">Seleccione...</option>
+            <option value="0_20">De 0 a 20 Años</option>
+            <option value="21_40">De 21 a 40 Años</option>
+            <option value="41_60">De 41 a 60 Años</option>
+            <option value="61_80">De 61 a 80 Años</option>
+            <option value="80+">Mayor de 80 Años</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="foto" id="lfoto"><b>Adjunto tu foto de perfil</b>
+                <br>
+                <input type="file" id="foto" name="foto"></label>
+            </div>
+            <br>
+            
+            <!--div>label[for="img" id="limg"]b{Imagen:}^br+input[type="image" src="" name="img" id="img" alt="Inscribete en Nuestros Curos" width="40%"]-->
+            
+            <div>
+                <label for="img" id="limg"></label><b>Imagen:</b>
+            <br>
+            <input type="image" src="../Imagen/Imagen1.jpg" name="img" id="img" alt="Inscribete en Nuestros Curos" width="40%">
+            </div>
+            <br>
+            
+            <!--div>label[for="cod" id="lcod"]>b{Codigo Alumno:}^br+input[type="hidden" id="cod" name="cod" value="01"]-->
+            
+            <div>
+                <label for="cod" id="lcod"><b>Codigo Alumno:</b></label>
+                <br>
+                <input type="hidden" id="cod" name="cod" value="01">
+            </div>
+            <br>
+            
+            <!--div>label[for="com" id="lcom"]b{Comentarios:}^br+textarea[id="com" name="com" rows="5" cols="30" maxlength="200" placeholder="Escribe tus comentarios aqui..."]-->
+            
+            <div>
+                <label for="com" id="lcom"></label><b>Comentarios:</b>
+            <br>
+            <textarea name="com" id="com" rows="5" cols="30" maxlength="200" placeholder="Escribe tus comentarios aqui..."></textarea>
+            </div>
+            <br>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_OI6gyl3a3c?si=0ptPssV75esMEC4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <br>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.2010260229385!2d-72.2186172!3d7.7684953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e666cbdd57d4163%3A0x1581790ad86dc9ea!2sIngenier%C3%ADa%20Digital%20CA!5e0!3m2!1ses!2sve!4v1777670298786!5m2!1ses!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br>
+            <div>
+                <!--audio[src="" controls=""]+br*3-->
+                <audio src="../Multimedia/WhatsApp Audio 2026-05-01 at 5.22.33 PM.mp4" controls="controls" loop=""></audio>
+                <br>
+                <br>
+                <br>
+
+            <div>
+                <!--video[src="" controls="controls"]+br*3-->
+                <video src="../Multimedia/WhatsApp Video 2026-05-01 at 5.21.30 PM.mp4" controls="controls"></video>
+                <br>
+                <br>
+                <br>
+                </div>
+                <br>
+                <div>
+                        <input type="submit" value="Enviar Formulario">
+                        <input type="reset" value="Limpiar Formulario">
+                        <input type="button" value="Volver al Menu">
+                </div>
+            </div>
+        </form>    
+</div>
+</html>

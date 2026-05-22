@@ -1,0 +1,29 @@
+.celeste {
+    /* bgc#66FAFF */
+    background-color: #66faff;
+}   
+
+.gris {
+    /* bgc#808080 */   
+    background-color: #808080;
+}
+
+.morado {
+    /* bgc#c000ff */
+    background-color: #c000ff;
+}
+
+.borde {
+    /* bd4-solid-blue */
+    border: blue 4px solid;
+    /* Los bordes puede ser:display: 
+    solid: Una linea unica, continua y solida. Es el estandar 
+    dashed: Una linea formada por guiones o segmentos rectang
+    dotted: Una linea formada por puntos redondos
+    double: Dons Lineas solidas paralelas
+    groove: El borde parece estar "tallado" o hundido en la pagina
+    ridge: El efecto contrario; el borde parece sobresalir (como una moldura)
+    inset: hace que el elemento parezca presionado hacia adentro.
+    outset: Hace que el elemento parezca resltar hacia afuera.
+    Para que se note, el grosor (border-width) debe ser de al menos 3px. */
+}

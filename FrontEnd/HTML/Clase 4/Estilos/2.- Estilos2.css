@@ -1,0 +1,38 @@
+.fondo-imagen{
+    background-image: url(../Imagen/Imagen1.jpg);
+    height: 768px;  /* Indicamos altura */
+    width: 100%;    /* Indicamos anchura */
+    background-position: center;
+    /* Asignamos la posicion horizontal del fondo */
+    background-repeat: repeat;
+    /* Permitimos o No permitimos que se repita la imagen de fondo */
+    background-size: contain;
+    /* Cover: Redimesionamos la imagen de fondo para que cubra el contenedor por completo.
+    Contain: Permitimos que la imagen se muestre por completo dentro del contenedor */
+    opacity: 1;
+}
+
+#p2 {
+    color: #abff0f; /*Color de texto Blanco */
+    /*Colores por defecto en CSS :display: green = verde white = blanco red = rojo;
+    yellow = amarillo black = negro grey = gris blue = azul */
+}
+
+p{
+    text-indent: 30%;   /* Desplazamiento de la primera linea del texto */
+    text-align: justify;    /*Alineacion horizontal del texto - valores: r: */
+    text-decoration: none;  /*Efectos de Subrayado, tachado - valores: none */
+    letter-spacing: 0px;    /* Espacio entre caracteres*/ 
+    word-spacing: 20px;     /*Espacio entre palabras*/
+    text-transform: capitalize; /*Transformacion de texto - Valores: capitalize ! uppercase ! lowercase ! none */
+    line-height: 100px;  /*Tamaño del espacio entre lineas*/
+    vertical-align: middle; /* Alineacion vertical - Valores: top ! middle ! bottom */
+}
+
+.fuente-arial {
+    font-family: Arial, Helvetica, sans-serif;  /*Familia de fuente */
+    font-style: oblique;    /*Estilo de fuente - Valores: normal ! italic ! obloque */
+    font-weight: normal;    /*Anchura de los Caracteres - Valores : normal ! bold ! bolder ! lighter ! 100 ! 200 ! 300 ! 400 ! 500 ! 600 ! 700 ! 800 ! 900*/
+    font-size: large;   /* Tamaño de la fuente - Valores: xx-small ! x-small ! small ! medium ! large ! x-large ! xx-large ! larger ! smalller ! longitud ! porcentaje */
+}
+

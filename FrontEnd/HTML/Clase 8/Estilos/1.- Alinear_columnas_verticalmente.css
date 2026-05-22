@@ -1,0 +1,29 @@
+/*Estilo del Primer Div*/
+.caja {
+    /*Emmet*/
+    /*bgc#15ab86+c#fff+ff:Arial+p20+taj+bd:s5px#000*/
+    background-color: #15ab86;
+    color: #fff;
+    font-family: Arial;
+    padding: 20px;
+    text-align: justify;
+    border: solid 5px #000;
+}
+
+.row {
+    /*Emmet*/
+    /*bg#739ef2+mt20+h150*/
+    background: #739ef2;
+    margin-top: 20px;
+    height: 150px;
+}
+
+.col {
+    /*Emmet*/
+    /*bg#000+c#FFF+bd3-s-gray+ta:c*/
+    background: #000;
+    color: #fff;
+    border: 3px solid gray;
+    padding: 10px;
+    text-align: center;
+}

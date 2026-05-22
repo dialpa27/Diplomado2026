@@ -1,0 +1,36 @@
+.celeste {
+    /* bgc#66faff+w150+h150 */
+    background-color: #66faff;
+    width: 150px;
+    height: 150px;
+}
+
+.gris {
+    /* bgc#66faff+w150+h150 */
+    background-color: #6d7374;
+    width: 150px;
+    height: 150px;
+}
+
+.morado {
+    /*bgc#c000ff+w150+h150 */
+    background-color: #c000ff;
+    width: 150px;
+    height: 150px;
+}
+
+.flotador-izquierdo {
+    /* fl:l */
+    float: left;
+}
+
+.flotador-derecho {
+    /* fl:r */
+    float: right;
+}
+
+.romper-flotador {
+    /* cl:b */
+    clear: both;
+}
+

@@ -1,0 +1,89 @@
+.rojo {
+    background-color: turquoise;
+    width: 80px;
+    height: 80px;
+    border: 3px black solid;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.azul {
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    border: 3px black solid;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: 120px;
+}
+.verde {
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    border: 3px black solid;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -700px;
+    left: 240px;
+}
+.centro {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 3px black solid;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -930px;
+    left: 360px;
+}
+.verde2 {
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    border: 3px black solid;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -1155px;
+    left: 610px;
+}
+.azul2 {
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    border: 3px black solid;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -1455px;
+    left: 730px;
+}
+.rojo2 {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border: 3px black solid;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -1820px;
+    left: 850px;
+}

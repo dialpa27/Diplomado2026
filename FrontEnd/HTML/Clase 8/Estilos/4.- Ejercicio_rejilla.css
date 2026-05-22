@@ -1,0 +1,28 @@
+.caja {
+    background-color: #15ab4f;
+    color: #101010;
+    font-family: Arial;
+    padding: 30px;
+    text-align: center;
+}
+
+.caja1 {
+    background-color: #ab1538;
+    color: #101010;
+    font-family: Arial;
+    padding: 280px;
+    text-align: center;
+}
+
+.caja2 {
+    background-color: #3815ab;
+}
+
+.row-caja3 {
+    background-color: #414443;
+    text-align: center;
+    }
+
+.col2 {
+    background-color: rgb(136, 136, 137);
+}

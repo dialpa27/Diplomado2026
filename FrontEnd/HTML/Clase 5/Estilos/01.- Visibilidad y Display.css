@@ -1,0 +1,43 @@
+.celeste {
+    /* bgc#66faff+w150+h150 */
+    background-color: #66faff;
+    width: 150px;
+    height: 150px;
+}
+
+.gris {
+    /* bgc#c000ff+w150+h150 */
+    background-color: #7e7c7e;
+    width: 150px;
+    height: 150px;
+}
+
+.morado {
+    /* bgc#c000ff+w150+h150 */
+    background-color: #c000ff;
+    width: 150px;
+    height: 150px;
+}
+
+.no-visualizar {
+    /* d:n */
+        display: none;
+    /*Los elementos se ocultan y no se muestra el espacio reservado. */
+}
+
+.visualizar-en-linea {
+    /* d:i */
+    display: inline;
+    /*Los elementos se muestran en la misma linea (respetando el flujo) y no */
+}
+
+.visualizar-en-bloque {
+    /* d:b */
+    display: block;
+    /* Los elementos se muestran en lineas independientes y se aceptan las propiedades width, heigth y margenes verticales */
+}
+
+.visualizar-en-linea-bloque {
+    /* d:ib */
+    display: inline-block
+}

@@ -1,0 +1,42 @@
+.celeste {
+    /* pos:r+bgc:#66faff+w150+h150+d:ib */
+    position: relative;
+    background-color: #66faff;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.gris {
+    /* bgc:gray+w150+h150+d:ib */
+    background-color: gray;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.morado {
+    /* bgc:#c000ff+w150+h150+d:d:ib+z2 */
+    background-color: #c000ff;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    z-index: 2;
+    /* Z-index: controla el orden de apilamiento de los elementos en el eje Z (la profundidad), es decir, que elementos aparecen "encima" o "delante" de otros */ 
+} 
+
+.contenedor {
+    height: 2000px;
+}
+
+.posicionamiento {
+    position: fixed;
+    top: 50px;
+    /* Esta propieda define como posicionar al elemento seleccionado en el documento
+    Valores:
+    *static:* El elemento tiene una posicion estatica de acuerdo con el flujo normal de la pagina, casi nunca se usa 
+    *relative:* El elemento esta posicionado relativamente a su posicion original y su posicionamiento no afecta la posicion de los demas elementos.
+    *absolute:* El elemento es sacado del flujo normal de la pagina y el CSS no crea un espacio especial para acomodarlo. Mas bien flota por el documento, en el espacio de la ventana de navegacion 
+    *fixed:* Otorga posicionamiento fijo al elemento y su posicionamiento afecta la posicion de los demas elementos, su posicionamiento se debe configurar en base a la ventana de navegacion */
+}
+

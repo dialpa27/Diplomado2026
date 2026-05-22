@@ -1,0 +1,93 @@
+/* 1. Estilos Globales: Definimos la fuente y el color de fondo */
+body {
+font-family: 'Segoe UI', Arial, sans-serif;
+background-color: #f0f2f5;
+display: flex;
+justify-content: center;
+padding: 50px;
+}
+/* 2. El Contenedor Principal: Lo convertimos en una tarjeta elegante */
+#global {
+background-color: #ffffff;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+width: 100%;
+max-width: 560px;
+}
+/* 3. Títulos */
+h2 {
+
+color: #1a73e8;
+border-bottom: 2px solid #e8f0fe;
+padding-bottom: 10px;
+margin-bottom: 25px;
+}
+/* 4. Labels: Para que se vean más profesionales */
+label b {
+color: #444;
+font-size: 0.9em;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+/* 5. Inputs de Texto y Password: Los hacemos anchos y modernos */
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+width: 100%;
+padding: 12px;
+margin-top: 8px;
+border: 1px solid #ddd;
+border-radius: 8px;
+box-sizing: border-box; /* Importante para que el padding no desborde el ancho */
+transition: border-color 0.3s, box-shadow 0.3s;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+border-color: #1a73e8;
+box-shadow: 0 0 8px rgba(26,115,232,0.2);
+outline: none;
+}
+
+/* 6. Checkboxes y Radios: Añadimos espacio */
+
+input[type="checkbox"],
+input[type="radio"] {
+margin-right: 10px;
+cursor: pointer;
+}
+/* 7. Botones: Diferenciamos el de enviar de los demás */
+input[type="submit"] {
+background-color: #1a73e8;
+color: white;
+padding: 12px 25px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+background-color: #1557b0;
+}
+
+input[type="reset"] {
+background-color: #f8f9fa;
+color: #5f6368;
+border: 1px solid #dadce0;
+padding: 12px 25px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+input[type="reset"]:hover {
+background-color: #f1f3f4;
+}
+/* 8. Textarea: Evitamos que deformen el diseño */
+textarea {
+
+resize: vertical; /* Solo permite cambiar el tamaño hacia abajo */
+min-height: 100px;
+}
