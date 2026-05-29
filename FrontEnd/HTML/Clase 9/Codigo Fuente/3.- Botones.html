@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/css/bootstrap.min.css">
+    <title>Botones</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-12 m-4">
+                <input type="button" class="btn btn-warning" value="Input">
+                <input type="submit" class="btn btn-dark" value="Submit">
+                <button class="btn btn-sm btn-primary">Boton</button>
+                <button class="btn btn-md btn-outline-danger">Boton</button>
+                <button class="btn btn-lg disabled btn-info">Boton</button>
+            </div>
+            <hr>
+            <div class="col-12 m-4">
+                <div class="btn-group">
+                    <button class="btn btn-success">Boton</button>
+                    <button class="btn btn-success">Boton</button>
+                    <button class="btn btn-success">Boton</button>
+                    <button class="btn btn-success">Boton</button>
+                </div>
+            </div>
+            <hr>
+            <div class="col-12 m-4">
+                <div class="btn-group-vertical">
+                    <button class="btn btn-danger">Boton</button>
+                    <button class="btn btn-danger">Boton</button>
+                    <button class="btn btn-danger">Boton</button>
+                    <button class="btn btn-danger">Boton</button>
+                </div>
+
+                <div class="col-12 m-4">
+                    <div class="btn-group-vertical">
+                        <button type="button" class="btn btn-outline-primary">Borde Azul</button>
+                        <button type="button" class="btn btn-outline-success">Borde Verde</button>
+                        <button type="button" class="btn btn-outline-danger">Borde Rojo</button>
+                    </div>
+                </div>
+            
+                <div class="col-12">
+                    <!--Para etiquetas <button>-->
+                    <button type="button" class="btn btn-primary" disabled>No me puedes presionar</button>
+                    <!--Para enlaces <a> (Como los enlaces no admiten "disabled", Bootstrap te da una clase)-->
+                    <a href="#" class="btn btn-primary disabled" tabindex="-1" aria-disabled="true">Enlace Deshabilitado</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="../JS/js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>

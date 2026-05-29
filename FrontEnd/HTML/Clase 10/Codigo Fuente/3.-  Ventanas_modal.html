@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/css/bootstrap.min.css">
+    <title>Ventana Modal</title>
+</head>
+<body>
+    <div class="container">
+        <!--1. EL BOTON QUE DISPARA LA MODAL-->
+        <!--data-bs-target debe apuntar exactamente al ID de la modal-->
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalEliminar">Eliminar Registro</button>
+
+        <!--2. LA ESTRUCTURA DE LA MODAL -->
+        <div class="modal fade" id="modalEliminar" tabindex="-1" aria-labelledby="tituloModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!--Encabezado-->
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold text-danger" id="tituloModal">Confirmar Eliminacion</h5>
+                        <!--Boton de la X para cerrar-->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!--CUERPO-->
+                    <div class="modal-body">
+                        <p>Estas seguro de que deseas eliminar los datos de este estudiante de la base de datos local? Esta accion no se puede revertir</p>
+                    </div>
+                    <!--PIE DE PAGINA-->
+                    <div class="modal-header modal-footer border-0">
+                        <!--data-bs-dismiss="modal" hace que el boton cierre la ventana automaticamente-->
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-danger">Si, Confirmar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
