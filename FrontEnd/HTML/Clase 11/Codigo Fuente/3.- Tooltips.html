@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Estilos/flexbox.css">
+    <title>Tooltips</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row m-5">
+            <div class="col">
+                <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip Izquierda">Boton</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Tolltip Arriba">Boton</button>
+                <button type="button" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip Abajo">Boton</button>
+                <button type="button" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip Derecha">Boton</button>
+            </div>
+        </div>
+    </div>
+<script src="../JS/js/bootstrap.bundle.min.js"></script>
+<!-- Codigo para Inicializar los Tooltips en todo el sitio web -->
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl){
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
+</body>
+</html>
